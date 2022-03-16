@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\Oasis infobyte intership tasks\task 3\sheet.css">
+
+    <title>Tempreture Converter</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Tempreture converter</h1>
+        <h4 class="title">Convert Temperature</h4>
+        <form action="" name="form">
+            <div class="temp_calculator_inputs">
+                <div class="calculator_value">
+                    <label for="">Value To Convert:</label>
+                    <input type="text" placeholder="Enter the value" name="value" id="input_value">
+                </div>
+                <div class="calculator_input">
+                    <label for="">From:</label>
+                    <select name="input" id="input">
+                        <option value="celsius">Celsius (°C)</option>  
+                        <option value="fahrenheit">Fahrenheit (°F)</option>  
+                        <option value="kelvin">Kelvin (°K)</option>  
+
+                    </select>   
+                </div>   
+                <div class="calculator_input">   
+                    <label for="">To:</label>   
+                    <select name="output" id="output">   
+                        <option value="celsius">Celsius (°C)</option>   
+                        <option value="fahrenheit">Fahrenheit (°F)</option>   
+                        <option value="kelvin">Kelvin (°K)</option>
+
+                    </select>   
+                </div>
+            </div>
+            <button type="button" id="clear" class="cal-btn" onclick="reset()">Clear</button>
+            <button type="button" id="convert" class="cal-btn" onclick="convertTemperature()">Convert</button>
+            <div class="result_area">
+                <label for="">Result:</label>
+                <input type="text" value="" id="result">
+            </div>
+        </form>
+
+    </div>
+    <script src="C:\Users\DELL\Desktop\Oasis infobyte intership tasks\task 3\temprature.js"></script>
+</body>
+
+</html>

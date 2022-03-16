@@ -1,0 +1,91 @@
+*{
+    margin:0;padding:0;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    text-align: center;
+    background:linear-gradient(darkorange,rgb(255, 0, 21));
+    padding : 1.1rem;
+    }
+    
+.header{
+    text-align: center;
+    font-size: large;
+}
+
+.temp_calculator {
+    width: 100px;
+    margin: 50px auto;
+    background-color: #efefef;
+}
+form {
+    padding: 61px;
+}
+h4.title {
+    color:black;
+    text-align: center;
+    padding: 15px;
+}
+.calculator_input {
+    float: right;
+    
+}
+label {
+    font-size: 26px;
+}
+input {
+    width: 85%;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    padding: 10px;
+}
+.result_area label {
+    width: 34%;
+    float: left;
+}
+.result_area input {
+    width: 23%;
+}
+.calculator_value label {
+    width: 34%;
+    float: left;
+}
+.calculator_value input {
+    width: 23%;
+}
+.calculator_value {
+    margin-bottom: 90px;
+}
+
+.calculator_input {
+    padding: 0px 65px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+button#convert {
+    float: left;
+    
+}
+button.cal-btn {
+    width: 10%;
+    padding: 12px;
+    border: none;
+    background: rgba(255, 166, 0, 0.521);
+    border-radius: 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+select {
+    padding: 0px;
+}
